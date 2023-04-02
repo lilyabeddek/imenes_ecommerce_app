@@ -1,0 +1,107 @@
+@import url("https://fonts.cdnfonts.com/css/neue-haas-grotesk-text");
+/*@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&display=swap'); */
+body {
+  margin: 0px; /*elver la marge */
+  padding: 0px;
+  font-family: "Neue Haas Grotesk Text", sans-serif;
+  /*font-family: 'Cairo', sans-serif;*/
+}
+.avant {
+  
+  font-size: 12px;
+  text-align: center;
+  background-color: #fbf7f4;
+  position: sticky; /* pour que ca soit fixe */
+  top: 0;
+}
+.avant p {
+  padding: 10px 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+/* modif tete */
+.tete {
+  display: flex; /*regrouper et aligner plusieurs éléments dans une page web */
+  flex-wrap: wrap; /*permet de définir si les éléments doivent être disposés sur une ou plusieurs lignes en fonction de la largeur*/
+  justify-content: space-between; /*laisser des espace */
+  font-family: "Cairo", sans-serif; /*police*/
+  background-color: #fff; /*couleur  de tete */
+  position: sticky; /* pour que ca soit fixe */
+  top: 0;
+}
+
+.tete h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-right: 150px;
+
+}
+.tete .tete1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  cursor: pointer; /*ki je met le curseur ytbdl en pointeur */
+}
+.tete .tete1 p {
+  margin-right: 15px;
+}
+
+.tete .tete2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.tete .tete2 p {
+  margin-left: 15px;
+}
+
+header .savoir {
+ 
+  padding: 15px 20px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  outline: none; /*bach par default ca devient pas rouge */
+  cursor: pointer;
+  text-decoration: underline;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+header .part1 {
+  padding: 0px;
+  width: 50%;
+  float: left;
+}
+header .part1 img {
+  width: 100%;
+}
+header .part2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbf7f4;
+}
+header .part2 .description {
+  font-size: 12px;
+}
+header .part2 .savoir {
+  font-size: 17px;
+}
+header .part2 h1 {
+  font-size: 50px;
+  max-width: 500px;
+  text-align: center;
+}
+
+header .part2 p {
+  font-size: 30px;
+  max-width: 500px;
+  text-align: center;
+}
+
